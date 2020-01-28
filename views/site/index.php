@@ -11,7 +11,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Вы можете просмотреть список пользователей, их адреса, а так же управлять ими.</p>
 
-        <p><a class="btn btn-lg btn-success" href="<?=Yii::$app->urlManager->createUrl(['site/userlist'])?>">Список пользователей сайта</a></p>
+            <p><a class="btn btn-lg btn-success" href="<?=Yii::$app->urlManager->createUrl(['site/userlist'])?>">Список пользователей сайта</a></p>
     </div>
 
     <div class="body-content">
