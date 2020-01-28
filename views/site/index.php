@@ -7,11 +7,11 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <!--<h1>Congratulations!</h1>-->
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">Вы можете просмотреть список пользователей, их адреса, а так же управлять ими.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p><a class="btn btn-lg btn-success" href="<?=Yii::$app->urlManager->createUrl(['site/userlist'])?>">Список пользователей сайта</a></p>
     </div>
 
     <div class="body-content">
