@@ -1,0 +1,6 @@
+table td.addr-control {
+    vertical-align: top;
+}
+table.address td, table.address th {
+    height: 70px;
+}
